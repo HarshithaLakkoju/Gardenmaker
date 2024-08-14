@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />');
+.plant-variant-image{
+    border-radius: 20px ;
+    margin:12px;
+    box-shadow: 0px 0px 10px rgb(83, 165, 77);
+    transition: 0.4s;
+    animation: fadeIn 1s ;
+}
+.plant-variant{
+    width:100%;
+    border-radius:8px ;
+}
+.plant-variant-info{
+    padding:20px;
+}
+.plant-variant-name-rating{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.plant-variant-name-rating p{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.plant-variant-name-rating img{
+    width:70px;
+}
+.plant-variant-price{
+    color:rgb(6, 101, 6);
+    font-size:22px; 
+}
+.plant-variant-description{
+    color:black;
+    font-size: 14px;
+
+}
+.add{
+    
+    
+    margin-left: 30px;
+    cursor:pointer;
+    border-radius: 50%;
+   
+}
+.plant-variant-counter{
+    /* margin-left: 15px;
+    display:flex;
+    justify-content:left;
+    gap:10px;   */
+    margin-left: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 60px;
+    background-color: rgb(185, 238, 188);
+}
+.plant-variant-counter img{
+    width:20px;
+   
+}
